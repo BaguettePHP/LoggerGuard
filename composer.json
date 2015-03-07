@@ -1,0 +1,40 @@
+{
+    "name": "zonuexe/logger-guard",
+    "description": "Logger guard object for debugging.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "USAMI Kenta",
+            "email": "tadsan@zonu.me"
+        }
+    ],
+    "keywords": [
+        "monolog",
+        "psr-3",
+        "debug"
+    ],
+    "require": {
+        "monolog/monolog": "*"
+    },
+    "require-dev": {
+         "phpunit/phpunit": "~4.3.5"
+        ,"theseer/phpdox":  "~0.7.0"
+        ,"phploc/phploc":   "~2.0.6"
+        ,"phpmd/phpmd":     "@stable"
+        ,"satooshi/php-coveralls": "dev-master"
+        ,"twig/twig":       "~1.18.0"
+        ,"zonuexe/simple-routing": "~0.2.0"
+        ,"zonuexe/http-accept-language": "~0.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Teto\\Logger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Teto\\Logger\\": "tests/"
+        }
+    },
+    "suggest": {}
+}
